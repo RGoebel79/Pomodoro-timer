@@ -1,0 +1,133 @@
+body{
+  background-color: #333333;
+  font-family: Open Sans, Arial;
+}
+
+header {
+  text-align: center;
+  font-size: 45px;
+  font-family: Tahoma, Geneva;
+  font-weight: bold;
+  margin-top: 45px;
+  background-color: #333333;
+  color:white;
+  
+}
+.stimer{
+  display: inline;
+  background-color: #333333;
+  color: white;
+}
+.btimer{display: inline;
+  width: 35%;
+    background-color: #333333;
+  color: white;
+}
+.count {
+  display: flex;
+  text-align: center;
+  margin-left: 34%;
+  font-size: 35px;
+  padding:30px;
+  background-color: #333333;
+  color: white;
+  
+}
+.btn {
+  background-color: white;
+  font-size: 35px;
+}
+.butts2 {
+  text-align:center;
+  margin: 0 0 0 43%;
+  padding: auto;
+  //position:absolute;
+  
+  
+}
+.session {
+  text-align:center;
+  
+  font-size: 40px;
+  //border-style: solid;
+  border-radius: 100%;
+  width: 50%;
+  
+  height: 350px;
+  width: 350px;
+  
+  
+  position: absolute;
+  z-index: 50;
+  background-color:white;
+  overflow: hidden;
+  margin: 35px 0 50px -65px;
+    background-color: #333333;
+  color: white;
+}
+.session2 {
+ text-align:center;
+  posistion: relative;
+  padding:120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #99CC00;
+  border-radius:100%;
+    width:350px;
+   height:350px;
+  z-index:2;
+  overflow: hidden;
+  box-shadow: inset 0px 0px 0px 4px #333333;
+  
+}
+  
+.fill{
+  position: absolute;
+  height: 0;
+  background-color: #99CC00;
+  width:350px;
+  padding: 0;
+  bottom:0;
+  left:0;
+  right:0;
+  z-index:-1;
+  //border-radius:100%;
+  //overflow: hidden;
+}
+.btn:active,.btn:focus{
+  border-style:none;
+  outline:none;
+  border:none;
+  background:none;
+  box-shadow:none;
+  color:white;
+}
+.btn{
+  color:white;
+  border-style:none;
+  outline:none;
+  border:none;
+  background:none;
+  box-shadow:none;
+}
+.btn:hover{
+  color:white;
+  border-style:none;
+  outline:none;
+  border:none;
+  background:none;
+  box-shadow:none;
+}
+.butts{
+  height:50px;
+  background-color: #333333;
+  color: white;
+}
+.status{
+  text-align:center;
+  margin-left:-15px;
+}
+.timer{
+  margin-left:-5px;
+}
