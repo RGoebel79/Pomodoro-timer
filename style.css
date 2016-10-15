@@ -95,14 +95,7 @@ header {
   //border-radius:100%;
   //overflow: hidden;
 }
-.btn:active,.btn:focus{
-  border-style:none;
-  outline:none;
-  border:none;
-  background:none;
-  box-shadow:none;
-  color:white;
-}
+
 .btn{
   color:white;
   border-style:none;
@@ -118,6 +111,14 @@ header {
   border:none;
   background:none;
   box-shadow:none;
+}
+.btn:active,.btn:focus{
+  border-style:none;
+  outline:none;
+  border:none;
+  background:none;
+  box-shadow:none;
+  color:white;
 }
 .butts{
   height:50px;
