@@ -95,7 +95,11 @@ header {
   //border-radius:100%;
   //overflow: hidden;
 }
-
+.butts{
+  height:50px;
+  background-color: #333333;
+  color: white;
+}
 .btn{
   color:white;
   border-style:none;
@@ -120,11 +124,7 @@ header {
   box-shadow:none;
   color:white;
 }
-.butts{
-  height:50px;
-  background-color: #333333;
-  color: white;
-}
+
 .status{
   text-align:center;
   margin-left:-15px;
